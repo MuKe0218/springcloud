@@ -6,16 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="01f15db0-fadf-4ffe-834a-bbceed95e6bd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../muke_take_out/src/main/java/com/mukework/muke/common/JacksonObjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/kql/ConsumerDept_80.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/kql/config/ConfigBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/kql/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/kql/DeptProvider_8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/kql/DeptProvider_8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/kql/DeptProvider_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/kql/DeptProvider_8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/kql/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/java/com/kql/controller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +55,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -167,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679886118574</updated>
-      <workItem from="1679886120282" duration="11822000" />
+      <workItem from="1679886120282" duration="13867000" />
     </task>
     <servers />
   </component>
