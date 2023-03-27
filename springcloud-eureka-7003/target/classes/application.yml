@@ -1,5 +1,5 @@
 server:
-  port: 7001
+  port: 7003
 
 
 eureka:
@@ -9,4 +9,4 @@ eureka:
     register-with-eureka: false #表示是否向eureka注册中心注册自己
     fetch-registry: false #如果为false，表示自己为注册中心
     service-url: #
-      defaultZone: http://localhost:7002/eureka/,http://localhost:7003/eureka/
+      defaultZone: http://${eureka.hostname}:7001/eureka/,http://${eureka.hostname}:7002/eureka/
