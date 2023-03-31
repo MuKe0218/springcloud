@@ -12,9 +12,11 @@ public class HelloController {
 
     @Autowired
     private RestTemplate restTemplate;
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //通过ribbon地址不能定死，需通过服务名来访问
+    //private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
     @GetMapping("/hello")
     public String getHello(){
-        return restTemplate.getForObject(REST_URL_PREFIX+"/Hello/hello",String.class);
+        return restTemplate.getForObject(REST_URL_PREFIX+"/Test/hello",String.class);
     }
 }

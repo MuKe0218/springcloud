@@ -6,13 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="01f15db0-fadf-4ffe-834a-bbceed95e6bd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../muke_take_out/src/main/java/com/mukework/muke/common/JacksonObjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/ConsumerDept_80.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/ConsumerDept_80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/config/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/kql/ConsumerDept_80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/kql/config/ConfigBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/kql/controller/HelloController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/kql/DeptProvider_8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/kql/DeptProvider_8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/kql/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/com/kql/controller/HelloController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,26 +82,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DeptProvider_8001">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="springCloud" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="springCloud" />
-      <option name="filePath" />
+    <configuration name="ConsumerDept_80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-consumer-dept-80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kql.ConsumerDept_80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,19 +117,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kql.EurekaService_7001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaService_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-eureka-7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="kql.EurekaService_7001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,8 +152,8 @@
         <item itemvalue="Spring Boot.DeptProvider_8001" />
         <item itemvalue="Spring Boot.EurekaService_7002" />
         <item itemvalue="Spring Boot.EurekaService_7001 (1)" />
+        <item itemvalue="Spring Boot.ConsumerDept_80" />
         <item itemvalue="Spring Boot.EurekaService_7003" />
-        <item itemvalue="Spring Boot.EurekaService_7001" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +165,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679886118574</updated>
-      <workItem from="1679886120282" duration="16009000" />
+      <workItem from="1679886120282" duration="20510000" />
+      <workItem from="1680060587136" duration="617000" />
+      <workItem from="1680241391034" duration="647000" />
     </task>
     <servers />
   </component>
@@ -202,5 +184,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
