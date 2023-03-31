@@ -1,0 +1,22 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+
+info:
+  app.name: kql-springcloud
+  company.name: hhhhhhhh
+
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept #springcloud-feign
+    mydept.path: /mydept/**
+  ignored-services: "*" # springcloud-provider-dept 忽略这个路劲访问，不能再直接通过这个进行访问  “*”通配符隐藏全部
+  prefix: /kkk #设置公共的访问前缀
