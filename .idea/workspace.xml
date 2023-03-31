@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="01f15db0-fadf-4ffe-834a-bbceed95e6bd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../muke_take_out/src/main/java/com/mukework/muke/common/JacksonObjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/ConsumerDept_80.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/ConsumerDept_80.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/config/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/java/com/kql/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/kql/ConsumerDept_80.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/kql/config/ConfigBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-consumer-dept-80/target/classes/kql/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8001/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +73,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DeptProvider_8001">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerDept_80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-consumer-dept-80" />
       <extension name="coverage">
@@ -167,7 +169,7 @@
       <updated>1679886118574</updated>
       <workItem from="1679886120282" duration="20510000" />
       <workItem from="1680060587136" duration="617000" />
-      <workItem from="1680241391034" duration="647000" />
+      <workItem from="1680241391034" duration="2456000" />
     </task>
     <servers />
   </component>
