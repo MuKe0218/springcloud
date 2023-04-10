@@ -50,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-zuul/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../muke_take_out" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -59,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitProject\springcloud\nacos\src\main\resources" />
       <recent name="D:\GitProject\springcloud\springcloud-zuul\src\main\resources" />
       <recent name="D:\GitProject\springcloud\springcloud-consumer-dept-80\src\main\resources" />
       <recent name="D:\GitProject\springcloud\springcloud-consumer-dept-feign\src\main\java\com\kql" />
       <recent name="D:\GitProject\springcloud\springcloud-eureka-7002\src\main\resources" />
-      <recent name="D:\GitProject\springcloud\springcloud-eureka-7002" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitProject\springcloud\springcloud-consumer-dept-feign\src\main\resources" />
@@ -71,17 +71,23 @@
       <recent name="D:\GitProject\springcloud\springcloud-eureka-7002" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kql" />
+      <recent name="com.kql.mapper" />
+      <recent name="com.kql.service.impl" />
+      <recent name="com.kql.service" />
+      <recent name="com.kql.entity" />
+      <recent name="com.kql.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeptProvider_8001">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.NacosWork">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,19 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaService_7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-eureka-7002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kql.EurekaService_7002" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FeignConsumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-consumer-dept-feign" />
       <extension name="coverage">
@@ -134,6 +127,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kql.FeignConsumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosWork" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kql.NacosWork" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosWork" />
         <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="Spring Boot.DeptProvider_8001" />
         <item itemvalue="Spring Boot.FeignConsumer" />
         <item itemvalue="Spring Boot.EurekaService_7001 (1)" />
-        <item itemvalue="Spring Boot.EurekaService_7002" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +177,8 @@
       <updated>1679886118574</updated>
       <workItem from="1679886120282" duration="20510000" />
       <workItem from="1680060587136" duration="617000" />
-      <workItem from="1680241391034" duration="7837000" />
+      <workItem from="1680241391034" duration="8433000" />
+      <workItem from="1681085942063" duration="5630000" />
     </task>
     <servers />
   </component>

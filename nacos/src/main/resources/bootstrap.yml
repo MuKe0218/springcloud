@@ -1,0 +1,14 @@
+server:
+  port: 8001
+
+spring:
+  #profiles:
+   # active: xxx   #开发环境，可省略不配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #服务注册的 nacos地址
+      config:
+        server-addr: localhost:8848  #配置文件的 nacos地址
+        prefix: nacos-config-client-dev #配置名称
+        file-extension: yml #配置文件后缀名

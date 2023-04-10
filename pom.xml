@@ -16,6 +16,7 @@
         <module>springcloud-eureka-7002</module>
         <module>springcloud-consumer-dept-feign</module>
         <module>springcloud-zuul</module>
+        <module>nacos</module>
     </modules>
 
     <properties>
